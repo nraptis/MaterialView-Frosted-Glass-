@@ -13,8 +13,8 @@
 		E81B61652C738A370014A912 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E81B61642C738A370014A912 /* Base */; };
 		E81B61672C738A380014A912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81B61662C738A380014A912 /* Assets.xcassets */; };
 		E81B616A2C738A380014A912 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E81B61692C738A380014A912 /* Base */; };
-		E81B61732C738A410014A912 /* UIHostingController+IgnoreSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B61712C738A410014A912 /* UIHostingController+IgnoreSafeArea.swift */; };
-		E81B61742C738A410014A912 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B61722C738A410014A912 /* MaterialView.swift */; };
+		E81B61772C738DB20014A912 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B61752C738DB20014A912 /* MaterialView.swift */; };
+		E81B61782C738DB20014A912 /* UIHostingController+IgnoreSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81B61762C738DB20014A912 /* UIHostingController+IgnoreSafeArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		E81B61662C738A380014A912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E81B61692C738A380014A912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E81B616B2C738A380014A912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E81B61712C738A410014A912 /* UIHostingController+IgnoreSafeArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIHostingController+IgnoreSafeArea.swift"; path = "../../TeePo/UIHostingController+IgnoreSafeArea.swift"; sourceTree = "<group>"; };
-		E81B61722C738A410014A912 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialView.swift; path = ../../TeePo/MaterialView.swift; sourceTree = "<group>"; };
+		E81B61752C738DB20014A912 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		E81B61762C738DB20014A912 /* UIHostingController+IgnoreSafeArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIHostingController+IgnoreSafeArea.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 		E81B615C2C738A370014A912 /* FrostedGlass */ = {
 			isa = PBXGroup;
 			children = (
-				E81B61722C738A410014A912 /* MaterialView.swift */,
-				E81B61712C738A410014A912 /* UIHostingController+IgnoreSafeArea.swift */,
+				E81B61752C738DB20014A912 /* MaterialView.swift */,
+				E81B61762C738DB20014A912 /* UIHostingController+IgnoreSafeArea.swift */,
 				E81B615D2C738A370014A912 /* AppDelegate.swift */,
 				E81B615F2C738A370014A912 /* SceneDelegate.swift */,
 				E81B61612C738A370014A912 /* ViewController.swift */,
@@ -144,11 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81B61732C738A410014A912 /* UIHostingController+IgnoreSafeArea.swift in Sources */,
 				E81B61622C738A370014A912 /* ViewController.swift in Sources */,
-				E81B61742C738A410014A912 /* MaterialView.swift in Sources */,
+				E81B61782C738DB20014A912 /* UIHostingController+IgnoreSafeArea.swift in Sources */,
 				E81B615E2C738A370014A912 /* AppDelegate.swift in Sources */,
 				E81B61602C738A370014A912 /* SceneDelegate.swift in Sources */,
+				E81B61772C738DB20014A912 /* MaterialView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
