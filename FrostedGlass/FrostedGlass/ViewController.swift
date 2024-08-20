@@ -44,7 +44,7 @@ class ViewController: UIViewController {
                 materialView.leftAnchor.constraint(equalTo: selfView.leftAnchor),
                 materialView.rightAnchor.constraint(equalTo: selfView.rightAnchor),
                 materialView.topAnchor.constraint(equalTo: selfView.topAnchor),
-                materialView.bottomAnchor.constraint(equalTo: selfView.bottomAnchor),
+                materialView.bottomAnchor.constraint(equalTo: selfView.centerYAnchor),
             ])
         }
         
